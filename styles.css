@@ -65,9 +65,10 @@ body:has(.header .card-block .quotes. .infoblock .footer .main block) {
   padding: 20px;
 }
 
+/* Image of the main-block that i removed
 .main-image {
   height: 400px;
-}
+} */
 
 /* Button on main block no longer exists
 .main-button {
@@ -111,13 +112,6 @@ body:has(.header .card-block .quotes. .infoblock .footer .main block) {
   padding: 15px;
   min-width: 250px;
 }
-
-.card-f1 {
-  background-image: url("./images/f1.jpg");
-  background-repeat: no-repeat;
-  background-size: 980px 500px;
-}
-
 
 .wec,
 .stock {
