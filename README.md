@@ -1,5 +1,5 @@
 # odin-lading-page
-This is an exercise from The Odin Project where we need to build a landing page wich i'll use as a sandbox for me to apply new stuff that i'm learning. But for a while i won't put any fancy styling or anything, i'll just finish the project in order to continue the course.
+This is an exercise from The Odin Project where we need to build a landing page wich i'll use as a sandbox for me to apply new stuff that i'm learning. But for a while i won't put any fancy styling or anything, i'll just finish the project in order to continue the course. For now the page have some alignment imperfections and images moving the others when hover wich can be easily fixed, i just wan't to proceed in the course for now since i've delivered what the "Project: Landing-Page" assignment asks.
 
 There is a concpet behind this simple landing-page that i will apply someday.
 
