@@ -37,6 +37,14 @@ body {
   color: white;
   font-weight: bold;
  }
+ 
+ a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  list-style: none;
+  padding: 3px;
+}
   
  .links {
   font-size: 22px;
@@ -50,31 +58,50 @@ body {
 .main-block {
   color: white;
   background-color: #1F2937;
-  height: 500px;
+  height: 550px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 
 }
 
+.main-text-block {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-button {
+  font-weight: bold;
+  height: 40px;
+  width: 80px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  background-color: #1F2937;
+  color: white;
+}
+
+.main-button:hover{
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
 .main-title {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 32px;
   height: 80px;
   max-width: 500px;
 }
 
 .main-text {
+	font-size: 24px;
 	max-width: 500px;
-}
-
-.main-text-block {
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
 }
 
 /* Selectors below are here only in case i want to use them later
@@ -82,7 +109,7 @@ body {
 This image and the ones below might have some overflowing problems in small screens.*/
 .main-image {
   max-height: 400px;
-  width: 40%;
+  max-width: 40%;
 }
 
 /*Button on main block no longer exists
@@ -97,10 +124,9 @@ This image and the ones below might have some overflowing problems in small scre
 .card-block {
   background-color: white;
   color: gray;
-  height: 420px;
+  height: 550px;
   padding: 40px 140px 40px 140px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-around;
@@ -119,7 +145,7 @@ This image and the ones below might have some overflowing problems in small scre
 	display: flex;
 	padding: 10px;
 	width: 100%;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 
@@ -133,13 +159,13 @@ This image and the ones below might have some overflowing problems in small scre
 
 .card-img {
   width: 100%;
-  height: 190px;
+  max-height: 300px;
   border-radius: 60px;
 }
 
 .card :hover {
-	width: 105%;
-	height: 220px;
+	width: 100%;
+	max-height: 320px;
 }
 
 .text-f1,
@@ -156,21 +182,25 @@ This image and the ones below might have some overflowing problems in small scre
   background-color: gray;
   display: flex;
   align-items: center;
-  height: 400px;
+  height: 500px;
 }
 
 .thequote {
   background-color: #A9A9A9;
  border-radius: 30px 10px 30px 10px;
-  padding: 10px;
-  height: 150px;
-  margin: 0px 250px 0px 250px;
-  font-size: 24px;
+  padding: 20px;
+  height: 200px;
+  font-size: 28px;
 }
 
-.name {
+.ayrtonquote {
+  margin-left: 25px;
+}
+
+.ayrton {
   font-weight: bold;
   text-align: end;
+  margin-right: 30px;
 }
 
 .infoblock {
@@ -192,7 +222,8 @@ This image and the ones below might have some overflowing problems in small scre
 }
 
 .nameandbutton {
-  margin-right: 30px;
+  margin-right: 40px;
+  margin-left: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -200,6 +231,7 @@ This image and the ones below might have some overflowing problems in small scre
 
 .damonquote {
 	font-size: 18px;
+	margin-left: 30px;
 }
 
 .damon {
